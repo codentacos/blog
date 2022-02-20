@@ -1,0 +1,56 @@
+title: dev.log()
+description: Developer of many things
+author: Zach_Codes
+github: https://github.com/codentacos
+about: I'm a Software Engineer and Content Creator in Austin, TX. 
+disqus_shortname: zachcodes-2
+google_analytics: UA-221091038-1
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    # - icon: fa-facebook
+    #   link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/codeNtacos"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/zachary-m-nelson/"
+    # - icon: fa-stack-exchange
+    #   link: "#"
+    - icon: fa-github
+      link: "https://github.com/codentacos"
+
+share:
+  twitter_username: codentacos
+  # fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    # - text: My Projects
+    #   url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://codentacos.github.io/"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
