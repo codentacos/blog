@@ -3,7 +3,7 @@ description: Developer of many things
 author: Zach_Codes
 github: https://github.com/codentacos
 about: I'm a Software Engineer and Content Creator in Austin, TX. 
-disqus_shortname: zachcodes-2
+# disqus_shortname: zachcodes-2
 google_analytics: UA-221091038-1
 
 enableTags: true
